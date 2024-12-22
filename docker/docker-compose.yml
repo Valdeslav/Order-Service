@@ -1,12 +1,12 @@
 version: '2'
 
 services:
-  app:
+  order_app:
     image: 'order-service:latest'
     build:
       context: ./..
       dockerfile: ./docker/Dockerfile
-    container_name: app
+    container_name: order_app
 
     depends_on:
       - order_db
