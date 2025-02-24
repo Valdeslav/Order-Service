@@ -1,1 +1,1 @@
-CREATE DATABASE recipes-order;
+CREATE DATABASE recipes_order;
